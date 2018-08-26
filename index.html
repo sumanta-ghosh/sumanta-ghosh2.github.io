@@ -1,8 +1,438 @@
-<html>
-    <head>
-        <title><h1>Sumanta</title>
-    </head>
-    <body>           
-        <h1 style="text-align: center">Sumanta kr Ghosh</h1>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-124571751-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-124571751-1');
+	</script>
+
+    <title>Curriculum Vitae of Steve McKeogh - Full stack senior web developer</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="CV for Steve McKeogh, full stack senior web developer based in London, UK. PHP Laravel, Node.js, React and Redux"/>
+    <meta name="author" lang="en" content="Steve McKeogh <steve.mckeogh@gmail.com>">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1">
+    <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABS2lUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4KPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxMzggNzkuMTU5ODI0LCAyMDE2LzA5LzE0LTAxOjA5OjAxICAgICAgICAiPgogPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4KICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIi8+CiA8L3JkZjpSREY+CjwveDp4bXBtZXRhPgo8P3hwYWNrZXQgZW5kPSJyIj8+IEmuOgAABD1JREFUWIW9l11MHFUYhp8zMzu7wC5sW366bcDIgkohgqWmRkz9vbQab4ixUSI20XihXlgvjNGkiRe2aow3JpoYjWn8izfVK41/TSUYY4GKSAqlLWyhLFBhl2V3ZnfneLGz/Gxnl8UA792c7zvv+845c843nwj29FIkKoGHgYNAG7AH8AICiAJXgfNAL/AdMFsMqSjCQCvwAtBpCxaDReAr4H1goFCiUsgccALoB7o3II6d223PPWFzbchAA9AHHNuAaD4cs7kaijXQQmYfWzdBPItWm7NlPQO1wG/Ark0Uz2KXzV1byMCPQPkWiGdRbms4GngbaNxC8SwabS1g5RjWAxe3QXw1gsBYdgVe32bxZU0F8ANH8mVlHaakzDyvOtGCtQc872F3xhHArwGHAS03KgBVEVyOJzDSaTyKQsKyKNU0qnSdK7ElQFLl8VCt68TTaS7G42BJvC6NOo8Hw7IKGdCAwxpwv1NUFYJL8TgHfRU8uzdAU2kJY4kEH12dJJQw+KS5iaSUvHVlnPGlJQwpefWmOm4rK+Ps/DxfToep1PX1VuEBDWh2evuJhMEBr5cz7W3L4/vLyzlQ5uXJ83/RFdgNQGOJh/t++pXHb2ngzWA9AD5V5cPxUDEG9mlAwCmyZJo8HQgCMG2aPDE4hE9KfKqK171CfO+OHXxwZzuP1lQvj80lk6AUKjPLCCg4FBkBqJrKz/MLANToOt+23k7X3j38GYkwZZpr8p+rqyXgdq+Zj5QYlrXeh1nmaNMC6ktL+WI6zCN9/fwQniGNxWO7a+i7p4OWMh+mtJg0DD6/Ng3AQCTK6ZnML0BaAkmTWDrNTDKJXmA1FDK1e+0KCME1w6Czuop2n4/Xhi/w/PAIAG5FsK/cy1Lawu9y8fLIKF9Ph+n+e4ihxQzV9WSSl4L1nNnfxiF/BaFEIt9KxBRg6gYDQNQ08SiCNxqC/H6og8+amwD4Y2GBnrnr+DWNUkVhp67T2T/AuUiEhyozNazO4+bFujpavF6O1NQQTRj5DEypO585ejdwR26kRNMIGQZzpkkamDQMTs/OcfSfYWKWRYXLxblolN5IBEMI3C4XulAIJ02+Cc/yy/y/mJbkvVAIQwg8ztvwvQj29D4FfJob0RWFaCpFKB5HKAoqkLIsqj0eylSVS7EYILi5tAS3oiCE4HI8TjyVwq/rpKUkmkpRqetU63q+S6lLBHt6/cAMeW5DIQQpKZGrEqTzcjpC5M9PAVUKMA+ccsqQgCUlCqDazxsRz3LkwSlgPrsxxzfIuxk4DivFbgx4ZxvF37U1b+gLLrD1f0UjwK3Yu5N7Nh4EIlsoHrE1lj+NXAMTQAcwtwXiczb3xOpBp9thELiLdVqqDWLA5hzMDeSrEqNkbseTmyB+0uYadQoWKtoSeIVMJ/wxDkWrABbtOW02R97roJjuOItC7fkiEOJ/tOf/AbWpYGjSJBTLAAAAAElFTkSuQmCC">
+    
+    <meta property="og:site_name" content="Curriculum Vitae of Sumanta Kumar Ghosh">
+    <meta property="og:title" content="Kolkata based full stack senior web developer">
+    <meta property="og:description" content="CV for Sumanta Kumar Ghosh, full stack senior web developer based in Kolkata, India. PHP Laravel, VueJs, Node.js, React and Redux">
+    <meta property="og:url" content="http://cv.sumanta.in/">
+    <meta property="og:image" content="http://cv.sumanta.in/img/me.jpg">
+    <meta property="og:locale" content="en_GB">
+    <meta property="og:type" content="profile">
+    <meta property="profile:first_name" content="Sumanta">
+    <meta property="profile:last_name" content="Ghosh">
+    <meta property="profile:gender" content="male">
+    
+    <link rel="canonical" href="http://cv.sumanta.in/">
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lora:400,700|Material+Icons">
+</head>
+<body>
+  
+  <!-- Contact -->
+  <aside class="Contact">
+    <a href="mailto:sumantakrghosh@gmail.com" class="Contact__type" title="Email me">
+      <i class="material-icons Contact__font">email</i>
+      <span>sumantakrghosh@gmail.com</span>
+    </a>
+    <a href="https://www.linkedin.com/in/sumanta-kumar-ghosh-6100a318" class="Contact__type" title="Connect with me on LinkedIn" target="_blank">
+      <img src="./img/linkedin.svg" alt="Connect with me on LinkedIn" title="Connect with me on LinkedIn" class="Contact__icon">
+      <span>LinkedIn</span>
+    </a>
+    <a href="https://github.com/sumanta-ghosh" class="Contact__type" title="Find me on GitHub" target="_blank">
+      <img src="./img/github.svg" alt="Find me on GitHub" title="Find me on GitHub" class="Contact__icon">
+      <span>GitHub</span>
+    </a>
+  </aside>
+  
+  <header class="Header"><div class="Wrapper">
+    <!-- Photo -->
+    <div class="Header__photo">
+      <img src="./img/me.jpg" alt="Photo of Steve McKeogh" title="Steve McKeogh" class="Header__me">
+    </div>
+    
+    <!-- About -->
+    <div class="Header__about">
+      <span class="Header__label Header__label--cv">Curriculum Vitae</span>
+      <h1 class="Header__title">Sumanta Kumar Ghosh</h1>
+      <h2 class="Header__subtitle">Full stack senior web developer</h2>
+      <div class="Header__skills">
+        <p class="Header__skill">PHP Yii, Codeigniter, Laravel enthusiast</p>
+        <p class="Header__skill">Node.js</p>
+        <p class="Header__skill">VueJs</p>
+        <p class="Header__skill">React</p>
+        <p class="Header__skill">Front and backend</p>
+      </div>
+      <span class="Header__label Header__label--year">2018</span>
+    </div>
+  </div></header>
+  
+  <!-- Introduction -->
+  <div class="Intro"><div class="Wrapper">
+    <p>I am a full stack senior web developer from Kolkata,India. I started in the web game way back in 2011 - when I picked up a coding book and got hooked on code.</p>
+    <p>Over the years I have worked with many client around the world and I am always keen to adopt new technologies early such as PHP Laravel, VueJs, Node.js, React and Redux.</p>
+    <p>I have a huge passion for front and backend web development which I have been doing in parallel to each other for the length of my career. I am always looking for a new challenge.</p>
+  </div></div>
+  
+  <!-- Employment -->
+  <div class="Block Employment"><div class="Wrapper">
+    <h3 class="H3">Employment</h3>
+    <div class="Roles Grid">
+      
+      <!-- ScreenCloud -->
+      <article class="Role Grid__item">
+        <header class="Role__header">
+          <h4 class="Role__place">ScreenCloud</h4>
+          <p class="Role__dates">October 2016 - Present</p>
+        </header>
+        <ul class="Role__main">
+          <li>Lead developer for all frontend and backend development of marketing and front facing sites.</li>
+          <li>Responsible for build and to maintain the billing API which talks directly to Chargebee for all realtime billing requests.</li>
+          <li>Built and maintained a full bespoke accounting reconcilation service that kept all bookkeeping up-to-date with Xero.</li>
+          <li>Helps maintain and contribute to all ScreenCloud TV apps and the product.</li>
+        </ul>
+        <footer class="Role__footer">
+          London, EC2A
+          <a href="https://screen.cloud" class="Role__link" target="_blank" title="Visit screen.cloud [new window]"><i class="material-icons">public</i></a>
+        </footer>
+      </article>
+      
+      <!-- codegent/Thin Martian -->
+      <article class="Role Grid__item">
+        <header class="Role__header">
+          <h4 class="Role__place">Codegent Ltd / Thin Martian Ltd</h4>
+          <p class="Role__dates">June 2005 - October 2016</p>
+        </header>
+        <ul class="Role__main">
+          <li>Technical lead and head developer on major client based and internal apps, including end-to-end web builds as well as campaign work such as microsites, HTML emails, banners and social assets.</li>
+          <li>Designing UI and architecting custom Laravel CMS and implementing across client and internal based projects.</li>
+          <li>Mentoring a team of junior and mid-weight front and backend developers throughtout all stages of a build to completion, as well as code reviews and app deployment.</li>
+          <li>Performing sysadmin duties company wide on a vast array of servers (namely Debian).</li>
+          <li>Technically advising stakeholders, as well as design/UX stage across client projects as well as technically leading in client meetings and providing accurate time estimations.</li>
+        </ul>
+        <footer class="Role__footer">
+          London, EC2A
+          <a href="https://www.thinmartian.com" class="Role__link" target="_blank" title="Visit thinmartian.com [new window]"><i class="material-icons">public</i></a>
+        </footer>
+      </article>
+      
+      <!-- Reading Room -->
+      <article class="Role Grid__item">
+        <header class="Role__header">
+          <h4 class="Role__place">Reading Room Ltd</h4>
+          <p class="Role__dates">March 2000 - June 2005</p>
+        </header>
+        <ul class="Role__main">
+          <li>Templating and functional builds of client websites.</li>
+          <li>Architecting and maintaining a custom ColdFusion framework, alongside a custom CMS that was used across all projects.</li>
+          <li>Lead developer on all Energy Saving Trust (EST) projects, designing and implementing the entire Oracle database, liasing with the client and carrying out all the builds across their portal.</li>
+        </ul>
+        <footer class="Role__footer">
+          London, W1D
+          <a href="https://www.readingroom.com" class="Role__link" target="_blank" title="Visit readingroom.com [new window]"><i class="material-icons">public</i></a>
+        </footer>
+      </article>
+      
+      <!-- Datadial -->
+      <article class="Role Grid__item">
+        <header class="Role__header">
+          <h4 class="Role__place">Datadial</h4>
+          <p class="Role__dates">May 1999 - March 2000</p>
+        </header>
+        <ul class="Role__main">
+          <li>General day-to-day junior web developer duties, including liasing with designers to turn a design in to html, building frontend website builds and maintaining client websites.</li>
+          <li>Building multiple email newsletter campaigns.</li>
+        </ul>
+        <footer class="Role__footer">
+          London, SW5
+          <a href="https://www.datadial.net" class="Role__link" target="_blank" title="Visit datadial.net [new window]"><i class="material-icons">public</i></a>
+        </footer>
+      </article>
+      
+    </div>
+  </div></div>
+  
+  <!-- Skills -->
+  <div class="Block Talent"><div class="Wrapper">
+    <h3 class="H3">Skills</h3>
+    <div class="Skillsets Grid">
+      
+      <!-- Backend -->
+      <div class="Skillset Grid__item">
+        <header class="Skillset__header">
+          <h4 class="Skillset__label">Backend</h4>
+        </header>
+        <main class="Skillset__main">
+          <article class="Skill">
+            <h5 class="Skill__label">PHP</h5>
+            <div class="Skill__level Skill__level--5"><span></span><span></span><span></span><span></span><span></span></div>
+          </article>
+          <article class="Skill">
+            <h5 class="Skill__label">Laravel</h5>
+            <div class="Skill__level Skill__level--5"><span></span><span></span><span></span><span></span><span></span></div>
+          </article>
+          <article class="Skill">
+            <h5 class="Skill__label">Node.js</h5>
+            <div class="Skill__level Skill__level--5"><span></span><span></span><span></span><span></span><span></span></div>
+          </article>
+          <article class="Skill">
+            <h5 class="Skill__label">Codeigniter</h5>
+            <div class="Skill__level Skill__level--4"><span></span><span></span><span></span><span></span><span></span></div>
+          </article>
+          <article class="Skill">
+            <h5 class="Skill__label">ColdFusion</h5>
+            <div class="Skill__level Skill__level--4"><span></span><span></span><span></span><span></span><span></span></div>
+          </article>
+        </main>
+      </div>
+      
+      <!-- Frontend -->
+      <div class="Skillset Grid__item">
+        <header class="Skillset__header">
+          <h4 class="Skillset__label">Frontend</h4>
+        </header>
+        <main class="Skillset__main">
+          <article class="Skill">
+            <h5 class="Skill__label">HTML &amp; CSS</h5>
+            <div class="Skill__level Skill__level--5"><span></span><span></span><span></span><span></span><span></span></div>
+          </article>
+          <article class="Skill">
+            <h5 class="Skill__label">JavaScript</h5>
+            <div class="Skill__level Skill__level--4"><span></span><span></span><span></span><span></span><span></span></div>
+          </article>
+          <article class="Skill">
+            <h5 class="Skill__label">React &amp; Redux</h5>
+            <div class="Skill__level Skill__level--4"><span></span><span></span><span></span><span></span><span></span></div>
+          </article>
+          <article class="Skill">
+            <h5 class="Skill__label">Vue.js</h5>
+            <div class="Skill__level Skill__level--4"><span></span><span></span><span></span><span></span><span></span></div>
+          </article>
+          <article class="Skill">
+            <h5 class="Skill__label">Sass, Stylus &amp; Less</h5>
+            <div class="Skill__level Skill__level--5"><span></span><span></span><span></span><span></span><span></span></div>
+          </article>
+        </main>
+      </div>
+      
+      <!-- Frontend -->
+      <div class="Skillset Grid__item">
+        <header class="Skillset__header">
+          <h4 class="Skillset__label">Testing</h4>
+        </header>
+        <main class="Skillset__main">
+          <article class="Skill">
+            <h5 class="Skill__label">PHPUnit</h5>
+            <div class="Skill__level Skill__level--5"><span></span><span></span><span></span><span></span><span></span></div>
+          </article>
+          <article class="Skill">
+            <h5 class="Skill__label">Mocha</h5>
+            <div class="Skill__level Skill__level--5"><span></span><span></span><span></span><span></span><span></span></div>
+          </article>
+          <article class="Skill">
+            <h5 class="Skill__label">Jest</h5>
+            <div class="Skill__level Skill__level--4"><span></span><span></span><span></span><span></span><span></span></div>
+          </article>
+        </main>
+      </div>
+      
+      <!-- Server -->
+      <div class="Skillset Grid__item">
+        <header class="Skillset__header">
+          <h4 class="Skillset__label">Server</h4>
+        </header>
+        <main class="Skillset__main">
+          <article class="Skill">
+            <h5 class="Skill__label">Amazon AWS</h5>
+            <div class="Skill__level Skill__level--4"><span></span><span></span><span></span><span></span><span></span></div>
+          </article>
+          <article class="Skill">
+            <h5 class="Skill__label">Debian (Ubuntu)</h5>
+            <div class="Skill__level Skill__level--4"><span></span><span></span><span></span><span></span><span></span></div>
+          </article>
+          <article class="Skill">
+            <h5 class="Skill__label">Windows Server</h5>
+            <div class="Skill__level Skill__level--3"><span></span><span></span><span></span><span></span><span></span></div>
+          </article>
+        </main>
+      </div>
+          
+      <!-- Database -->
+      <div class="Skillset Grid__item">
+        <header class="Skillset__header">
+          <h4 class="Skillset__label">Database</h4>
+        </header>
+        <main class="Skillset__main">
+          <article class="Skill">
+            <h5 class="Skill__label">MySQL/MariaDB</h5>
+            <div class="Skill__level Skill__level--5"><span></span><span></span><span></span><span></span><span></span></div>
+          </article>
+          <article class="Skill">
+            <h5 class="Skill__label">PostgreSQL</h5>
+            <div class="Skill__level Skill__level--4"><span></span><span></span><span></span><span></span><span></span></div>
+          </article>
+          <article class="Skill">
+            <h5 class="Skill__label">Oracle</h5>
+            <div class="Skill__level Skill__level--3"><span></span><span></span><span></span><span></span><span></span></div>
+          </article>
+          <article class="Skill">
+            <h5 class="Skill__label">SQL Server</h5>
+            <div class="Skill__level Skill__level--2"><span></span><span></span><span></span><span></span><span></span></div>
+          </article>
+        </main>
+      </div>
+      
+      <!-- Bundlers -->
+      <div class="Skillset Grid__item">
+        <header class="Skillset__header">
+          <h4 class="Skillset__label">Bundlers</h4>
+        </header>
+        <main class="Skillset__main">
+          <article class="Skill">
+            <h5 class="Skill__label">Webpack</h5>
+            <div class="Skill__level Skill__level--4"><span></span><span></span><span></span><span></span><span></span></div>
+          </article>
+          <article class="Skill">
+            <h5 class="Skill__label">Gulp</h5>
+            <div class="Skill__level Skill__level--4"><span></span><span></span><span></span><span></span><span></span></div>
+          </article>
+          <article class="Skill">
+            <h5 class="Skill__label">Browserify</h5>
+            <div class="Skill__level Skill__level--4"><span></span><span></span><span></span><span></span><span></span></div>
+          </article>
+          <article class="Skill">
+            <h5 class="Skill__label">Grunt</h5>
+            <div class="Skill__level Skill__level--3"><span></span><span></span><span></span><span></span><span></span></div>
+          </article>
+        </main>
+      </div>
+      
+      <!-- Bundlers -->
+      <div class="Skillset Grid__item">
+        <header class="Skillset__header">
+          <h4 class="Skillset__label">Technologies</h4>
+        </header>
+        <main class="Skillset__main">
+          <article class="Skill">
+            <h5 class="Skill__label">ElasticSearch</h5>
+            <div class="Skill__level Skill__level--4"><span></span><span></span><span></span><span></span><span></span></div>
+          </article>
+          <article class="Skill">
+            <h5 class="Skill__label">Solr</h5>
+            <div class="Skill__level Skill__level--3"><span></span><span></span><span></span><span></span><span></span></div>
+          </article>
+        </main>
+      </div>
+      
+      <!-- Other -->
+      <div class="Skillset Grid__item">
+        <header class="Skillset__header">
+          <h4 class="Skillset__label">Other</h4>
+        </header>
+        <main class="Skillset__main">
+          <article class="Skill">
+            <h5 class="Skill__label">Adobe Photoshop</h5>
+            <div class="Skill__level Skill__level--3"><span></span><span></span><span></span><span></span><span></span></div>
+          </article>
+          <article class="Skill">
+            <h5 class="Skill__label">Microsoft Windows</h5>
+            <div class="Skill__level Skill__level--5"><span></span><span></span><span></span><span></span><span></span></div>
+          </article>
+          <article class="Skill">
+            <h5 class="Skill__label">Apple macOS</h5>
+            <div class="Skill__level Skill__level--5"><span></span><span></span><span></span><span></span><span></span></div>
+          </article>
+        </main>
+      </div>
+          
+    </div>
+  </div></div>
+  
+  <!-- Work -->
+  <div class="Block Work"><div class="Wrapper">
+    <h3 class="H3">Previous work</h3>
+    
+    <!-- Skechers -->
+    <article class="Project Project--skechers">
+      <a href="http://www.fr.skechers.com" class="Project__img" target="_blank">Skechers Screenshot</a>
+      <div class="Project__body">
+        <h4>Skechers</h4>
+        <p>Frontend and backend build of all international SKECHERS sites on my custom built Laravel CMS.</p>
+        <p>This involved the build of 30+ market sites from Japanese to French, fully content managed for the worldwide SKECHERS teams.</p>
+        <p>All products were feed from the US or Euro SKECHERS XML feeds, and the CMS admin had the flexibility to switch between feeds via the site settings in the CMS and control all sites through a central portal.</p>
+      </div>
+    </article>
+    
+    <!-- Tepilo -->
+    <article class="Project Project--tepilo">
+      <div class="Project__body">
+        <h4>Tepilo</h4>
+        <p>Now on its third version, I was the sole developer on Sarah Beeny's popular online estate agent portal for the first two versions, building both on a custom codeigniter CMS.</p>
+        <p>I took more of an overseeing role on version 3, but still played a fundamental role in its build taking on the frontend and assisting and leading on integral components of the functional build.</p>
+      </div>
+      <a href="https://www.tepilo.com" class="Project__img" target="_blank">Tepilo Screenshot</a>
+    </article>
+    
+    <!-- WoW -->
+    <article class="Project Project--wow">
+      <div class="Project__img">World of Warriors Screenshot</div>
+      <div class="Project__body">
+        <h4>Mind Candy - World of Warriors</h4>
+        <p>I was lead developer for Mind Candy's popular mobile game World of Warriors.</p>
+        <p>Frontend and backend build on my custom built Laravel CMS, allowing administrators full content over this multimarket site.</p>
+        <p>worldofwarriors.com was built on top of an Amazon AWS stack, utilising many AWS features whilst fully cached in Cloudfront.</p>  
+      </div>
+    </article>
+    
+    <!-- TTT -->
+    <article class="Project Project--ttt">
+      <div class="Project__body">
+        <h4>The Thinking Traveller</h4>
+        <p>Responsible for the full frontend build of The Thinking Traveller, providers of luxury villa holidays in Italy and the Greek Islands, whilst the backend was built by an external team in .NET which involved liasing and educating the .NET team on requirements and ensuring timespent was within budgets set by the accounts team.</p>
+        <p>The project was a success and the client was extremely impressed with the product we provided!</p>
+      </div>
+      <a href="https://www.thethinkingtraveller.com/" class="Project__img" target="_blank">The Thinking Traveller Screenshot</a>
+    </article>
+    
+    <!-- TO - BA -->
+    <article class="Project Project--toba">
+      <div class="Project__img">Time Out/British Airways - Escape Screenshot</div>
+      <div class="Project__body">
+        <h4>Time Out/British Airways - Escape</h4>
+        <p>Time Out and British Airways collaborated in a fantastic competition to win a trip to one of the five Caribbean islands which they entered by selecting a pre chosen postcard theme and applying a photo to the stamp, as well as captioning the postcard. We worked closely with the client's campaign agency to ensure the product was strong enough visually to work across multimedia campaigns - such as tube video and bus advertising.</p>
+        <p>This was all built on my custom Laravel CMS whist hooking in to several APIs for moderation. The entire length of the competition was controlled via my CMS, from upload to winner selection.</p>
+      </div>
+    </article>
+    
+    <!-- Bing -->
+    <article class="Project Project--bing">
+      <div class="Project__body">
+        <h4>Microsoft/Bing - Bing Originals</h4>
+        <p>Microsoft Bing launched a competition to have your photography showcase on the Bing homepage.</p>
+        <p>I was involed in the frontend build of this site, whilst collaborating with an external .NET team who built the backend.</p>
+      </div>
+      <div class="Project__img">Bing Originals Screenshot</div>
+    </article>
+    
+    <!-- TO - Samsung -->
+    <article class="Project Project--tosam">
+      <div class="Project__img">Time Out/Samsung - Share your now Screenshot</div>
+      <div class="Project__body">
+        <h4>Time Out/Samsung - Share Your Now</h4>
+        <p>Time Out London and Samsung got together to create a photo competition.</p>
+        <p>My custom Laravel CMS was used for all aspects of the competition, alerting Time Out to new posts, request moderation from an external API and allowing the winners to be selected. An amazing 15,304 photos where uploaded over a few weeks.</p>
+        <p>It was also used to create a wonderful mosaic of London from all entries after the competition closed, taking all of the entries of the competition to form a city scene.</p>
+      </div>
+    </article>
+    
+  </div>
+  
+</body>
 </html>
